@@ -8,18 +8,18 @@ var MasterConfig = function() {
         //baseUrl: "http://www.e-shequ.com/wechat-sit/hexie/wechat/",
         //basePageUrl:"http://www.e-shequ.com/wechat-sit/hexie/",
 
-        baseUrl: "http://10.0.9.119/",
-        basePageUrl:"http://10.0.9.119/",
-        payPageFolder:"http://10.0.9.119/pay/",
-        payPageSuffix:"ly",		//liangyou
+        baseUrl: "http://www.e-shequ.com/weifa/wechat/hexie/wechat/",
+        basePageUrl:"http://www.e-shequ.com/weifa/weixin/",
+        payPageFolder:"http://www.e-shequ.com/pay/",
+        payPageSuffix:"wf",		//weifa
         
         appId: "wx95f46f41ca5e570e",
         oauthUrl: "https://open.weixin.qq.com/connect/oauth2/authorize?",
         oauthUrlPostFix:"&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect",
-        bindAppId: "wx9ffe0a2b5a64a285",
+        bindAppId: "wxec3315b94f3da1a3",
 
         baidu_map_key:"RUWUgrEEF5VjoaWsstMMZwOD",
-        shop_name: "贤生活",
+        shop_name: "慧生活",
 
         is_debug:true,
         statistics: {
@@ -45,7 +45,7 @@ var Config = function() {
             no_goods: "更多新品正在陆续推出..."
         },
         user_info: {
-            avatar: "http://www.e-shequ.com/baofang/weixin/static/images/logo.jpg",
+            avatar: "http://www.e-shequ.com/weifa/weixin/static/images/logo.jpg",
             nickname: "游客",
             levelname: "普通会员"
         },
@@ -55,7 +55,7 @@ var Config = function() {
             2 : "大楼VIP"
         },
         coupon:{
-            seedImg:"http://www.e-shequ.com/baofang/weixin/static/img/banner/banner_market_shuiguo.jpg"
+            seedImg:"http://www.e-shequ.com/weifa/weixin/static/img/banner/banner_market_shuiguo.jpg"
         }
     },
     e = {};
