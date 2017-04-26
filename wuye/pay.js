@@ -629,7 +629,6 @@ avalon.ready(function() {
     change2parkTab();
 	initWechat(['scanQRCode']);
     checkUserRegister();
-    initWechat(['scanQRCode']);
     queryBillList();
     avalon.scan(document.body);
     //share.default_send();
