@@ -13,7 +13,7 @@ var MasterConfig = function() {
         payPageFolder:"http://www.e-shequ.com/pay/",
         payPageSuffix:"wf",		//weifa
         
-        appId: "wx95f46f41ca5e570e",
+        appId: "wx89c743b2fa762a2c",
         oauthUrl: "https://open.weixin.qq.com/connect/oauth2/authorize?",
         oauthUrlPostFix:"&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect",
         bindAppId: "wxec3315b94f3da1a3",
