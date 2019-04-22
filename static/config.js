@@ -25,11 +25,27 @@ window.config = {
 		person_register:{			
 			url1: html+'person/index.html',// 注册页
 		},
+		//home页面
+		home_footer:{	
+			url1: html+'wuye/index.html',   //底部导航 物业
+			url2: html+'person/index.html'  //底部导航 个人中心		
+		},
+		home_index:{
+			url1: html+'repair/index.html?#/repair',//home首页便民维修跳转
+			url2:html+'home/kuaidi100.html'//快递查询跳转
+		},
 		repair_orderdetail:{
 			url1: pay+wf+'orderpay.html'
 		},
 		repair_success:{
 			url1: html+'wuye/index.html'
+		},
+		//商品订单板块
+		orderpay_commentxiu:{
+			url1: html+'repair/index.html',
+		},
+		orderpay_homeorderdetail:{
+			url1: html+'home/index.html',
 		},
 		wuye_index:{
 			url1: html+'repair/index.html#/repair?category=4'//便民维修
@@ -48,6 +64,9 @@ window.config = {
 		},
 		wuye_suggest:{
 			url1: html+'wuye/index.html'//意见发布成功后跳转地址
+		},
+		wuye_zhifu:{
+			url1:html+'wuye/index.html?#/paymentquery'
 		}
 		
 };
